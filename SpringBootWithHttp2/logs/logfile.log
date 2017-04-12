@@ -1,0 +1,215 @@
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412151357.043;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Apr 12 15:13:57 CEST 2017]; root of context hierarchy;
+20170412151358.156;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8080 (http);
+20170412151358.263;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1220 ms;
+20170412151358.385;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412151358.390;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412151358.390;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412151358.390;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412151358.391;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412151358.713;RequestMappingHandlerAdapter;TUX0142.bn.detemobil.de;main;;I;Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Apr 12 15:13:57 CEST 2017]; root of context hierarchy;
+20170412151358.773;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse);
+20170412151358.775;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest);
+20170412151358.796;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151358.796;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151358.831;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151359.115;MBeanExporter;TUX0142.bn.detemobil.de;main;;I;Registering beans for JMX exposure on startup;
+20170412151359.170;AutoConfigurationReportLoggingInitializer;TUX0142.bn.detemobil.de;main;;I;
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.;
+20170412151359.173;LoggingFailureAnalysisReporter;TUX0142.bn.detemobil.de;main;;E;
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+;
+20170412151359.175;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Apr 12 15:13:57 CEST 2017]; root of context hierarchy;
+20170412151359.176;MBeanExporter;TUX0142.bn.detemobil.de;main;;I;Unregistering JMX-exposed beans on shutdown;
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412151415.835;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:14:15 CEST 2017]; root of context hierarchy;
+20170412151417.461;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8080 (http);
+20170412151417.579;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1744 ms;
+20170412151417.699;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412151417.703;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412151417.704;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412151417.704;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412151417.704;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412151418.073;RequestMappingHandlerAdapter;TUX0142.bn.detemobil.de;main;;I;Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:14:15 CEST 2017]; root of context hierarchy;
+20170412151418.145;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse);
+20170412151418.146;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest);
+20170412151418.176;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151418.177;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151418.214;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151418.544;MBeanExporter;TUX0142.bn.detemobil.de;main;;I;Registering beans for JMX exposure on startup;
+20170412151418.600;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat started on port(s): 8080 (http);
+20170412151742.596;AbstractApplicationContext;TUX0142.bn.detemobil.de;Thread-5;;I;Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:14:15 CEST 2017]; root of context hierarchy;
+20170412151742.597;MBeanExporter;TUX0142.bn.detemobil.de;Thread-5;;I;Unregistering JMX-exposed beans on shutdown;
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412151748.151;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:17:48 CEST 2017]; root of context hierarchy;
+20170412151749.486;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8080 (http);
+20170412151749.623;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1472 ms;
+20170412151749.868;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412151749.872;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412151749.872;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412151749.873;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412151749.873;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412151749.905;AutowiredAnnotationBeanPostProcessor$3;TUX0142.bn.detemobil.de;main;;W;Autowired annotation is not supported on static methods: public static void org.maxwell.springboot.demo2.controller.SampleController.setSecuredAppsConfigNotificationUrl(int);
+20170412151750.127;RequestMappingHandlerAdapter;TUX0142.bn.detemobil.de;main;;I;Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:17:48 CEST 2017]; root of context hierarchy;
+20170412151750.192;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/updateDetails],methods=[POST]}" onto public void org.maxwell.springboot.demo2.controller.SampleController.updateStudentDetails(java.lang.Object);
+20170412151750.193;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/getDetails],methods=[GET]}" onto public void org.maxwell.springboot.demo2.controller.SampleController.getStudentDetails(boolean);
+20170412151750.195;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse);
+20170412151750.196;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest);
+20170412151750.223;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151750.223;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151750.258;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412151750.527;MBeanExporter;TUX0142.bn.detemobil.de;main;;I;Registering beans for JMX exposure on startup;
+20170412151750.587;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat started on port(s): 8080 (http);
+20170412152057.092;AbstractApplicationContext;TUX0142.bn.detemobil.de;Thread-5;;I;Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:17:48 CEST 2017]; root of context hierarchy;
+20170412152057.094;MBeanExporter;TUX0142.bn.detemobil.de;Thread-5;;I;Unregistering JMX-exposed beans on shutdown;
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412152102.836;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@55493582: startup date [Wed Apr 12 15:21:02 CEST 2017]; root of context hierarchy;
+20170412152104.273;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8086 (http);
+20170412152104.360;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1524 ms;
+20170412152104.478;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412152104.481;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412152104.482;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412152104.482;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412152104.482;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412152104.679;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;W;Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'sample.text.value' in value "${sample.text.value}";
+20170412152104.697;AutoConfigurationReportLoggingInitializer;TUX0142.bn.detemobil.de;main;;I;
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.;
+20170412152104.701;SpringApplication;TUX0142.bn.detemobil.de;main;;E;Application startup failed;
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'sample.text.value' in value "${sample.text.value}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.maxwell.springboot.demo2.SpringBootWithHttp2.main(SpringBootWithHttp2.java:33)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'sample.text.value' in value "${sample.text.value}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:831)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	... 15 common frames omitted
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412152220.611;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:22:20 CEST 2017]; root of context hierarchy;
+20170412152222.119;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8080 (http);
+20170412152222.245;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1634 ms;
+20170412152222.473;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412152222.476;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412152222.477;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412152222.477;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412152222.477;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412152222.592;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;W;Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'sample.text.value' in value "${sample.text.value}";
+20170412152222.613;AutoConfigurationReportLoggingInitializer;TUX0142.bn.detemobil.de;main;;I;
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.;
+20170412152222.617;SpringApplication;TUX0142.bn.detemobil.de;main;;E;Application startup failed;
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sampleController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'sample.text.value' in value "${sample.text.value}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.maxwell.springboot.demo2.SpringBootWithHttp2.main(SpringBootWithHttp2.java:31)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'sample.text.value' in value "${sample.text.value}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:831)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1086)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	... 15 common frames omitted
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412152303.380;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Apr 12 15:23:03 CEST 2017]; root of context hierarchy;
+20170412152304.484;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8080 (http);
+20170412152304.592;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1212 ms;
+20170412152304.723;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412152304.727;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412152304.728;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412152304.728;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412152304.728;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412152305.063;RequestMappingHandlerAdapter;TUX0142.bn.detemobil.de;main;;I;Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Apr 12 15:23:03 CEST 2017]; root of context hierarchy;
+20170412152305.123;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/updateDetails],methods=[POST]}" onto public void org.maxwell.springboot.demo2.controller.SampleController.updateStudentDetails(java.lang.Object);
+20170412152305.124;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/getDetails],methods=[GET]}" onto public void org.maxwell.springboot.demo2.controller.SampleController.getStudentDetails(boolean);
+20170412152305.126;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse);
+20170412152305.127;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest);
+20170412152305.153;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412152305.154;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412152305.189;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412152305.475;MBeanExporter;TUX0142.bn.detemobil.de;main;;I;Registering beans for JMX exposure on startup;
+20170412152305.529;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat started on port(s): 8080 (http);
+20170412152440.649;FrameworkServlet;TUX0142.bn.detemobil.de;http-nio-8080-exec-1;;I;FrameworkServlet 'dispatcherServlet': initialization started;
+20170412152440.659;FrameworkServlet;TUX0142.bn.detemobil.de;http-nio-8080-exec-1;;I;FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms;
+20170412152947.365;AbstractApplicationContext;TUX0142.bn.detemobil.de;Thread-5;;I;Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2f16c6b3: startup date [Wed Apr 12 15:23:03 CEST 2017]; root of context hierarchy;
+20170412152947.367;MBeanExporter;TUX0142.bn.detemobil.de;Thread-5;;I;Unregistering JMX-exposed beans on shutdown;
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+#logback.classic pattern: %d{yyyyMMddHHmmss.SSS};%C{0};TUX0142.bn.detemobil.de;%thread;%mdc{req_id};%.-1level;%msg;%n
+20170412152953.442;AbstractApplicationContext;TUX0142.bn.detemobil.de;main;;I;Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:29:53 CEST 2017]; root of context hierarchy;
+20170412152954.873;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat initialized with port(s): 8080 (http);
+20170412152954.990;EmbeddedWebApplicationContext;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Root WebApplicationContext: initialization completed in 1548 ms;
+20170412152955.121;ServletRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping servlet: 'dispatcherServlet' to [/];
+20170412152955.126;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'characterEncodingFilter' to: [/*];
+20170412152955.126;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'hiddenHttpMethodFilter' to: [/*];
+20170412152955.127;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'httpPutFormContentFilter' to: [/*];
+20170412152955.127;AbstractFilterRegistrationBean;TUX0142.bn.detemobil.de;localhost-startStop-1;;I;Mapping filter: 'requestContextFilter' to: [/*];
+20170412152955.493;RequestMappingHandlerAdapter;TUX0142.bn.detemobil.de;main;;I;Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6b88ca8c: startup date [Wed Apr 12 15:29:53 CEST 2017]; root of context hierarchy;
+20170412152955.553;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/getDetails],methods=[GET]}" onto public void org.maxwell.springboot.demo2.controller.SampleController.getStudentDetails(boolean);
+20170412152955.554;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/updateDetails],methods=[POST]}" onto public void org.maxwell.springboot.demo2.controller.SampleController.updateStudentDetails(java.lang.Object);
+20170412152955.556;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse);
+20170412152955.557;AbstractHandlerMethodMapping$MappingRegistry;TUX0142.bn.detemobil.de;main;;I;Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest);
+20170412152955.578;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412152955.578;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412152955.607;AbstractUrlHandlerMapping;TUX0142.bn.detemobil.de;main;;I;Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler];
+20170412152955.844;MBeanExporter;TUX0142.bn.detemobil.de;main;;I;Registering beans for JMX exposure on startup;
+20170412152955.894;TomcatEmbeddedServletContainer;TUX0142.bn.detemobil.de;main;;I;Tomcat started on port(s): 8080 (http);
+20170412153009.062;FrameworkServlet;TUX0142.bn.detemobil.de;http-nio-8080-exec-2;;I;FrameworkServlet 'dispatcherServlet': initialization started;
+20170412153009.074;FrameworkServlet;TUX0142.bn.detemobil.de;http-nio-8080-exec-2;;I;FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms;
