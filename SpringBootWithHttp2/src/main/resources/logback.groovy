@@ -47,7 +47,7 @@ appender("async-appender", AsyncAppender) {
 *4.	An optional Boolean value indicating additivity. The default value is true.
 */
 
-logger("org.springframework", INFO, ["file-appender"], false)
-logger("org.maxwell.springboot.demo2",DEBUG, ["app-appender"], false)
+logger("org.springframework", DEBUG, ["file-appender"], false)
+logger("org.maxwell.springboot",TRACE, ["app-appender"], false)
 
 root(DEBUG, ["app-appender"])
