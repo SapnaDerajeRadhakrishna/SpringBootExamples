@@ -30,6 +30,6 @@ dependencies {
 	testCompile 'junit:junit'
 }
 
-task wrapper(type: Wrapper) { gradleVersion = '2.9' }
+task wrapper(type: Wrapper) { gradleVersion = '3.1' }
 
 springBoot { mainClass = 'org.maxwell.demo.Application' }
