@@ -1,0 +1,35 @@
+buildscript {
+	ext.kotlin_version = '1.1.2' // Required for Kotlin integration
+	ext.spring_boot_version = '1.5.3.RELEASE'
+	repositories { jcenter() }
+	dependencies {
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version" // Required for Kotlin integration
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:$spring_boot_version"
+	}
+}
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+	// Use 'jcenter' for resolving your dependencies.
+	// You can declare any Maven/Ivy/file repository here.
+	jcenter()
+}
+
+apply plugin: 'kotlin' // Required for Kotlin integration
+apply plugin: 'org.springframework.boot'
+apply plugin: 'application'
+
+jar {
+	baseName = 'gs-rest-service'
+	version = '0.1.0'
+}
+
+dependencies {
+	compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version" // Required for Kotlin integration
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	testCompile 'junit:junit'
+}
+
+task wrapper(type: Wrapper) { gradleVersion = '2.9' }
+
+springBoot { mainClass = 'org.maxwell.demo.Application' }
